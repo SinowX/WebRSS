@@ -1,0 +1,62 @@
+html, body {
+    font-family: "Segoe UI Regular", "Source Han Sans SC Regular", "Microsoft YaHei", sans-serif;
+    margin: 1%;
+
+    overflow-x: hidden;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #004578;
+    text-decoration: underline;
+}
+
+#main > p.title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+article {
+    line-height: 1.6;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+article figure {
+    margin: 16px 0;
+    text-align: center;
+}
+article figure figcaption {
+    font-size: .875rem;
+    color: #484644;
+}
+
+code {
+    color: #121212;
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+    line-height: 1.6;
+    word-break: initial;
+    word-wrap: initial;
+    white-space: pre;
+    font-family: Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    border-radius: 0;
+    background-color: inherit;
+}
+
+pre {
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow-x:auto;
+    background: #f3f4f4;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+}
+
