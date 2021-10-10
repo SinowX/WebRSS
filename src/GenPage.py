@@ -11,6 +11,9 @@ descr_suffix_length = 17
 
 TplPath = '../dist/static/rss_template.html'
 PageStorage = '../dist/pages'
+if ~os.path.exists(PageStorage):
+    os.makedirs(PageStorage)
+
 
 class GenPages:
     xml = ""

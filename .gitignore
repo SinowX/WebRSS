@@ -1,2 +1,3 @@
+!dist/pages
 dist/pages/*
 src/__pycache__
